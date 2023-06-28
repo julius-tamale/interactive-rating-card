@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 :root {
     --orange: hsl(25, 97%, 53%);
     --white: hsl(0, 0%, 100%);
@@ -11,9 +13,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
 }
 
-button {
+button, li {
     font: inherit;
 }
 
@@ -25,7 +28,7 @@ body {
 .wrapper-div {
     background-color: var(--dark-blue);
     width: 90%;
-    max-width: 375px;
+    max-width: 350px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -63,7 +66,7 @@ ul > li {
     color: var(--medium-grey);
     font-weight: 700;
     background-color: var(--very-dark-blue);
-    padding: 10px 15px;
+    padding: 10px 16px;
     border-radius: 50%;
     opacity: 0.75;
     cursor: pointer;
@@ -72,6 +75,10 @@ ul > li {
 h2 {
     color: var(--white);
     margin: 1rem 0;
+}
+
+p {
+    color: var(--medium-grey);
 }
 
 ul > li:hover {
@@ -103,7 +110,7 @@ ul > li:hover {
     color: var(--orange);
     background-color: var(--very-dark-blue);
     padding: 0.5rem 1rem;
-    /* font-weight: 400; */
+    font-weight: 700;
     border-radius: 25px;
 }
 
